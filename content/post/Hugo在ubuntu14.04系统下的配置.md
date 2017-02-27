@@ -3,7 +3,7 @@ categories = ['tools', 'Ubuntu']
 date = "2017-02-27T13:55:22+08:00"
 description = "记录在Ubuntu14.04系统下面配置Hugo的过程，包括安装Hugo，markdown工具remarkanle 以及配置搜狗输入法，github等。"
 tags = ['tools', 'Ubuntu', 'git']
-title = "Hugo在Ubuntu14.4系统下的配置 "
+title = "Hugo在Ubuntu14.04系统下的配置 "
 
 +++
 
@@ -51,4 +51,10 @@ hugo -t hyde-y --baseURL "https://tmhm.github.io/" -D
 生成新文件：
 hugo new post/second.md
 ```
+### 写blog操作步骤
+
+1. 用hugo new 生成新文件test.md；
+2. 编辑my_blog/content/post/test.md，添加各种属性内容，用单引号‘’；
+3. 在本地服务器打开的状态下，是可以实时的看到网页的变化的，若满足要求，用hugo -t hyde-y --baseURL "https://****.github.io/" -D生成静态网页，然后在public目录下面再用git命令：add，commit，push 到 ****.github.io/仓库，现在既可以在玩个上看到新的内容了。
+4. cd 到上一目录my_blog/, 在此也可以将源文件放到一个仓库。
 
