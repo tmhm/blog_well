@@ -31,7 +31,24 @@ sudo dpkg -i hugo_0.15_amd64.deb
 
 ### 配置github
 由于hugo文件在另一台电脑已经配置好config.toml文件，所以只需要将整个文件夹copy过来，配置好Ubuntu本地的github即可
+```
+git init
+git add -A
+git commit -m "first commit"
+git remote add origin git@github.com:tmhm/blog_well.git
+git push -u origin master
+```
 
+### Hugo 命令Note
+```
+本地服务器，看样式：
+hugo server --baseURL=http://127.0.0.1:1313/ -t hyde-y -D --bind="0.0.0.0"
 
+在myblog根目录执行，生成静态网页，生成文件放在public文件夹：  
 
+hugo -t hyde-y --baseURL "https://tmhm.github.io/" -D
+
+生成新文件：
+hugo new post/second.md
+```
 
