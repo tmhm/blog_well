@@ -1,7 +1,8 @@
 +++ 
 title = "嵌入式linux问题杂锦" 
 date = "Fri, 08 Jan 2016 08:35:00 GMT" 
-categories = ["Linux"] 
+tags = ["Linux"] 
+categories = ["OS"]
 description = "嵌入式 Linux 系统的小问题记录。 " 
 +++ 
 

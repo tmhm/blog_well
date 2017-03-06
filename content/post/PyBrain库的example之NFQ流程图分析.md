@@ -1,7 +1,8 @@
 +++ 
 title = "PyBrain库的example之NFQ流程图分析" 
 date = "Fri, 27 May 2016 11:43:00 GMT" 
-categories = ["Python"] 
+tags = ["Python"] 
+categories = ["Machine Learning"]
 description = "PyBrain 库中NFQ算法的流程图分析" 
 +++ 
 

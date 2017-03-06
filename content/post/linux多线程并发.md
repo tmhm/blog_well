@@ -1,7 +1,8 @@
 +++ 
 title = "linux多线程并发" 
 date = "Fri, 08 Jan 2016 09:40:00 GMT" 
-categories = ["Linux"] 
+tags = ["Linux"] 
+categories = ["OS"]
 description = " 多线程和多进程的概念入门。" 
 +++ 
 

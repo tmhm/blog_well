@@ -1,7 +1,8 @@
 +++ 
 title = "vim初探" 
 date = "Sat, 21 May 2016 01:49:00 GMT" 
-categories = ["工具"] 
+tags = ["工具"] 
+categories = ["OS"]
 description = "初入vim" 
 +++ 
 

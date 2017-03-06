@@ -1,7 +1,8 @@
 +++ 
 title = "Python 中logging 模块的配置和使用" 
 date = "Sun, 25 Dec 2016 04:49:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Language"]
 description = "Python 中logging 模块的使用记录" 
 +++ 
 

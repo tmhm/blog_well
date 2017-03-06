@@ -1,7 +1,8 @@
 +++ 
 title = "spss v21.0 使用笔记" 
 date = "Sat, 14 May 2016 14:50:00 GMT" 
-categories = ["工具"] 
+tags = ["工具"] 
+categories = ["Machine Learning"]
 description = "统计学工具spss初试" 
 +++ 
 

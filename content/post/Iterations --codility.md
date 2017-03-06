@@ -1,7 +1,8 @@
 +++ 
 title = "Iterations --codility" 
 date = "Thu, 01 Sep 2016 15:35:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "迭代刷题" 
 +++ 
 

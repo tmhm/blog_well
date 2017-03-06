@@ -1,7 +1,8 @@
 +++ 
 title = "sorting--codility" 
 date = "Wed, 14 Sep 2016 09:36:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "排序刷题" 
 +++ 
 

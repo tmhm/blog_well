@@ -1,7 +1,8 @@
 +++ 
 title = "删除链表中倒数第n个节点" 
 date = "Fri, 25 Mar 2016 09:25:00 GMT" 
-categories = ["算法"] 
+tags = ["算法"] 
+categories = ["Algorithm"]
 description = " 刷题也是提高算法能力的一种方式。" 
 +++ 
 

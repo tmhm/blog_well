@@ -1,7 +1,8 @@
 +++ 
 title = "ubuntu12.04LTS 系统下QT 4.8.6和QT creator 2.5.2的安装" 
 date = "Wed, 06 Jan 2016 10:30:00 GMT" 
-categories = ["ubuntu"] 
+tags = ["ubuntu"] 
+categories = ["OS"]
 description = "ubuntu12.04LTS安装以及卸载 QT4.8.6和QT creator2.5.2。" 
 +++ 
 

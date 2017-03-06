@@ -1,7 +1,8 @@
 +++ 
 title = "Ipython notebook 一些技巧" 
 date = "Wed, 20 Apr 2016 09:40:00 GMT" 
-categories = ["python"] 
+tags = ["python"] 
+categories = ["Language"]
 description = "python notebook 一些技巧记录。" 
 +++ 
 

@@ -1,7 +1,8 @@
 +++ 
 title = "python之面向对象（继承）" 
 date = "Thu, 26 May 2016 09:53:00 GMT" 
-categories = ["Python"] 
+tags = ["Python"] 
+categories = ["Language"]
 description = "python之继承思想" 
 +++ 
 

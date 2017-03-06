@@ -1,7 +1,8 @@
 +++ 
 title = "matplotlib y轴标注显示不全以及subplot调整的问题" 
 date = "Fri, 23 Dec 2016 08:32:00 GMT" 
-categories = ["Python"] 
+tags = ["Python"] 
+categories = ["Tools"]
 description = "在Python中使用matplotlib调整位置大小的代码" 
 +++ 
 

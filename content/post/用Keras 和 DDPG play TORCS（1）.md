@@ -1,7 +1,8 @@
 +++ 
 title = "用Keras 和 DDPG play TORCS（1）" 
 date = "Wed, 26 Oct 2016 12:06:00 GMT" 
-categories = ["TORCS"] 
+tags = ["TORCS"] 
+categories = ["Machine Learning"]
 description = "DDPG算法的学习记录之配置篇" 
 +++ 
 

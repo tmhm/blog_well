@@ -1,7 +1,8 @@
 +++ 
 title = "PyCharm小技巧" 
 date = "Tue, 08 Mar 2016 13:57:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Tools"]
 description = "Pycharm编译器中main函数的参数配置" 
 +++ 
 

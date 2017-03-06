@@ -1,7 +1,8 @@
 +++ 
 title = "macdown在mac OS 中的配置" 
 date = "Wed, 02 Nov 2016 13:50:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Tools"]
 description = "用命令行打开markdown" 
 +++ 
 

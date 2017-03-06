@@ -1,7 +1,8 @@
 +++ 
 title = "GPU 服务器环境安装中一些基础note" 
 date = "Mon, 21 Nov 2016 06:29:00 GMT" 
-categories = ["GPU"] 
+tags = ["GPU"] 
+categories = ["Machine Learning"]
 description = " GPU服务器配置记录。" 
 +++ 
 

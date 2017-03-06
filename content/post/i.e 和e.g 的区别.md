@@ -1,7 +1,8 @@
 +++ 
 title = "i.e 和e.g 的区别" 
 date = "Tue, 12 Apr 2016 02:09:00 GMT" 
-categories = ["English"] 
+tags = ["English"] 
+categories = ["Tools"]
 description = "i.e 和e.g 的区别小记" 
 +++ 
 

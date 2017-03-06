@@ -1,7 +1,8 @@
 +++ 
 title = "stacks and queues--codility" 
 date = "Sat, 17 Sep 2016 10:44:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = " 队列和栈" 
 +++ 
 

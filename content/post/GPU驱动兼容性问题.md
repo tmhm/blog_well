@@ -1,7 +1,8 @@
 +++ 
 title = "GPU驱动兼容性问题" 
 date = "Wed, 30 Nov 2016 01:12:00 GMT" 
-categories = ["GPU"] 
+tags = ["GPU"] 
+categories = ["Machine Learning"]
 description = "将笔记本的GTX860M 的驱动升级到了376.09版本，出现登陆界面，输入密码后黑屏。" 
 +++ 
 

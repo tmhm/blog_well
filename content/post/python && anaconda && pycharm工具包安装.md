@@ -1,7 +1,8 @@
 +++ 
 title = "python && anaconda && pycharm工具包安装" 
 date = "Sun, 24 Apr 2016 13:24:00 GMT" 
-categories = ["Python"] 
+tags = ["Python"] 
+categories = ["Language"]
 description = "anaconda环境下，python包的安装记录" 
 +++ 
 

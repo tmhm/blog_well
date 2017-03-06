@@ -1,7 +1,8 @@
 +++ 
 title = "C_Cplus程序设计涉及的一些知识点" 
 date = "Tue, 30 Aug 2016 10:47:00 GMT" 
-categories = ["C++"] 
+tags = ["C++"] 
+categories = ["Language"]
 description = "C++中的一些小知识点（printf压栈顺序，指针引用，动态内存以及变量的存储位置，构造函数，this指针等问题的回顾） " 
 +++ 
 

@@ -1,7 +1,8 @@
 +++ 
 title = "无人驾驶之激光雷达&摄像头" 
 date = "Fri, 02 Dec 2016 05:03:00 GMT" 
-categories = ["自动驾驶"] 
+tags = ["自动驾驶"] 
+categories = ["Machine Learning"]
 description = "激光雷达和摄像头模块一些理论知识的整理，主要from 速腾CEO 邱纯鑫硬件公开课上的分享" 
 +++ 
 

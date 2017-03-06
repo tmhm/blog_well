@@ -1,7 +1,8 @@
 +++ 
 title = "基于DRL和TORCS的自动驾驶仿真系统——之环境配置" 
 date = "Wed, 08 Feb 2017 09:13:00 GMT" 
-categories = ["自动驾驶"] 
+tags = ["自动驾驶"] 
+categories = ["Machine Learning"]
 description = "玩TORCS和DRL差不多有一整年了，开始的摸爬滚打都是不断碰壁过来的，近来在参与[CMU的DRL10703课程](https://katefvision.github.io/)学习和翻译志愿者工作，也将自己以前的一些工作做一些备忘，以作为有兴趣同学的参考。" 
 +++ 
 

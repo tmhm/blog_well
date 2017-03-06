@@ -1,7 +1,8 @@
 +++ 
 title = "shadowsocks 在win10下无法使用的问题" 
 date = "Fri, 25 Nov 2016 04:38:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Tools"]
 description = "win10下shadowsock没法使用" 
 +++ 
 

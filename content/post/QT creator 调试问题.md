@@ -1,7 +1,8 @@
 +++ 
 title = "QT creator 调试问题" 
 date = "Fri, 08 Jan 2016 07:45:00 GMT" 
-categories = ["QT"] 
+tags = ["QT"] 
+categories = ["Tools"]
 description = " QT Creator 调试小问题记录" 
 +++ 
 

@@ -1,7 +1,8 @@
 +++ 
 title = "ubuntu 12.04lts 安装 mysql，通过QT访问" 
 date = "Thu, 18 Feb 2016 10:58:00 GMT" 
-categories = ["ubuntu"] 
+tags = ["ubuntu"] 
+categories = ["OS"]
 description = "在虚拟机 ubuntu 12.04lts 安装mysql，并通过QT连接。" 
 +++ 
 

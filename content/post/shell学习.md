@@ -1,7 +1,8 @@
 +++ 
 title = "shell学习" 
 date = "Thu, 10 Mar 2016 08:36:00 GMT" 
-categories = ["Linux"] 
+tags = ["Linux"] 
+categories = ["OS"]
 description = "shell小记" 
 +++ 
 

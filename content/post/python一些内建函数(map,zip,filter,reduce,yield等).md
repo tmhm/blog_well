@@ -1,7 +1,8 @@
 +++ 
 title = "python一些内建函数(map,zip,filter,reduce,yield等)" 
 date = "Tue, 17 May 2016 15:06:00 GMT" 
-categories = ["python"] 
+tags = ["python"] 
+categories = ["Language"]
 description = "Python中一些有用的内置函数，map，zip，filter，reduce，yield，instance等" 
 +++ 
 

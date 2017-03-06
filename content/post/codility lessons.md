@@ -1,7 +1,8 @@
 +++ 
 title = "codility lessons" 
 date = "Tue, 30 Aug 2016 14:19:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "learning in codility. " 
 +++ 
 

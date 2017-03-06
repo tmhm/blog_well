@@ -1,7 +1,8 @@
 +++ 
 title = "C_Cplus中一些不太注意到的小知识点--[锦集]" 
 date = "Sun, 22 May 2016 14:55:00 GMT" 
-categories = ["C++"] 
+tags = ["C++"] 
+categories = ["Language"]
 description = " inside 运算符和sizeof。" 
 +++ 
 

@@ -1,7 +1,8 @@
 +++ 
 title = "adobe reader DC 字体设置" 
 date = "Wed, 31 Aug 2016 07:51:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Tools"]
 description = "Adobe reader 个人字体设置。" 
 +++ 
 

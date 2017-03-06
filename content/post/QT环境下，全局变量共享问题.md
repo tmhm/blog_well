@@ -1,7 +1,8 @@
 +++ 
 title = "QT环境下，全局变量共享问题" 
 date = "Tue, 08 Mar 2016 12:47:00 GMT" 
-categories = ["技术"] 
+tags = ["技术"] 
+categories = ["Tools"]
 description = "QT环境下的全局变量共享" 
 +++ 
 

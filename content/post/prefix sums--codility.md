@@ -1,7 +1,8 @@
 +++ 
 title = "prefix sums--codility" 
 date = "Sun, 04 Sep 2016 09:08:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "prefix sums练手" 
 +++ 
 

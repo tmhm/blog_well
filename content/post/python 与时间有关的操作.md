@@ -1,7 +1,8 @@
 +++ 
 title = "python 与时间有关的操作" 
 date = "Tue, 31 May 2016 10:46:00 GMT" 
-categories = ["python"] 
+tags = ["python"] 
+categories = ["Language"]
 description = "time 模块" 
 +++ 
 

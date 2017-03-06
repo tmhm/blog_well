@@ -1,7 +1,8 @@
 +++ 
 title = "win7下安装ubuntu14.04lts 双系统" 
 date = "Thu, 14 Jan 2016 16:11:00 GMT" 
-categories = ["ubuntu"] 
+tags = ["ubuntu"] 
+categories = ["OS"]
 description = " win7 安装 ubuntu 双系统时，硬盘的格式化问题" 
 +++ 
 

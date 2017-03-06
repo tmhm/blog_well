@@ -1,7 +1,8 @@
 +++ 
 title = "Microsoft Visual Studio小技巧" 
 date = "Tue, 30 Aug 2016 10:51:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Tools"]
 description = "vs 配置main函数入口参数" 
 +++ 
 

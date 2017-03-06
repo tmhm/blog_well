@@ -1,7 +1,8 @@
 +++ 
 title = "python 有关引用的一些问题" 
 date = "Sat, 21 May 2016 14:24:00 GMT" 
-categories = ["python"] 
+tags = ["python"] 
+categories = ["Language"]
 description = "Python中引用的一些分析记录" 
 +++ 
 

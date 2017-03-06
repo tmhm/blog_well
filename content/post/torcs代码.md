@@ -1,7 +1,8 @@
 +++ 
 title = "torcs代码" 
 date = "Wed, 06 Jan 2016 11:10:00 GMT" 
-categories = ["TORCS"] 
+tags = ["TORCS"] 
+categories = ["Machine Learning"]
 description = " TORCS 的数据结构" 
 +++ 
 

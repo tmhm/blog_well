@@ -1,7 +1,8 @@
 +++ 
 title = "再探VIM配置" 
 date = "Fri, 02 Sep 2016 16:13:00 GMT" 
-categories = ["工具"] 
+tags = ["工具"] 
+categories = ["OS"]
 description = "开始制作属于自己的VIM。" 
 +++ 
 

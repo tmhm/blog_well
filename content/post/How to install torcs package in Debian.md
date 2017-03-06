@@ -1,7 +1,8 @@
 +++ 
 title = "How to install torcs package in Debian" 
 date = "Tue, 08 Mar 2016 13:19:00 GMT" 
-categories = ["torcs"] 
+tags = ["torcs"] 
+categories = ["Machine Learning"]
 description = "Debian系统支持直接安装torcs" 
 +++ 
 

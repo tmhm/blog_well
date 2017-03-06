@@ -1,7 +1,8 @@
 +++ 
 title = "Debian初识（选择最佳镜像发布站点加入source.list文件）" 
 date = "Tue, 08 Mar 2016 07:28:00 GMT" 
-categories = ["Linux"] 
+tags = ["Linux"] 
+categories = ["OS"]
 description = "镜像源source.list配置" 
 +++ 
 

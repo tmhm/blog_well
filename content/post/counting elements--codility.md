@@ -1,7 +1,8 @@
 +++ 
 title = "counting elements--codility" 
 date = "Thu, 01 Sep 2016 15:46:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "计数方法" 
 +++ 
 

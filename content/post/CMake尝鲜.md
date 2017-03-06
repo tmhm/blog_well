@@ -1,7 +1,8 @@
 +++ 
 title = "CMake尝鲜" 
 date = "Sat, 21 May 2016 01:50:00 GMT" 
-categories = ["c++"] 
+tags = ["c++"] 
+categories = ["Tools"]
 description = "尝试Cmake" 
 +++ 
 

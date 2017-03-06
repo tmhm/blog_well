@@ -1,7 +1,8 @@
 +++ 
 title = "QT4.8.6静态编译" 
 date = "Tue, 08 Mar 2016 12:48:00 GMT" 
-categories = ["编译"] 
+tags = ["编译"] 
+categories = ["Tools"]
 description = " 配置QT静态编译" 
 +++ 
 

@@ -1,7 +1,8 @@
 +++ 
 title = "python运算符一些注意项" 
 date = "Thu, 19 May 2016 06:07:00 GMT" 
-categories = ["Python"] 
+tags = ["Python"] 
+categories = ["Language"]
 description = " Python运算符之除和整除" 
 +++ 
 

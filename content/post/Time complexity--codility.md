@@ -1,7 +1,8 @@
 +++ 
 title = "Time complexity--codility" 
 date = "Thu, 01 Sep 2016 15:44:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "时间复杂度小试" 
 +++ 
 

@@ -1,7 +1,8 @@
 +++ 
 title = "Dev-C 小问题锦集" 
 date = "Sun, 21 Feb 2016 13:10:00 GMT" 
-categories = ["C++"] 
+tags = ["C++"] 
+categories = ["Tools"]
 description = " C++ 无法调试" 
 +++ 
 

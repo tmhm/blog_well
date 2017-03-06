@@ -1,7 +1,8 @@
 +++ 
 title = "mysql && matlab配置" 
 date = "Sat, 21 Nov 2015 13:56:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["Tools"]
 description = " Mysql 和 Matlab 的 连接配置入门。" 
 +++ 
 

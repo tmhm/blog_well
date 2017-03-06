@@ -1,7 +1,8 @@
 +++ 
 title = "Arrays--codility" 
 date = "Thu, 01 Sep 2016 15:40:00 GMT" 
-categories = ["codility"] 
+tags = ["codility"] 
+categories = ["Algorithm"]
 description = "数组 " 
 +++ 
 

@@ -1,8 +1,8 @@
 +++
-categories = ['tools', 'Ubuntu']
+tags = ['tools', 'Ubuntu']
+categories = ["Tools"]
 date = "2017-02-27T13:55:22+08:00"
 description = "记录在Ubuntu14.04系统下面配置Hugo的过程，包括安装Hugo，markdown工具remarkanle 以及配置搜狗输入法，github等。"
-tags = ['tools', 'Ubuntu', 'git']
 title = "Hugo在Ubuntu14.04系统下的配置 "
 
 +++

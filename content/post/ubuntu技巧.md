@@ -1,7 +1,8 @@
 +++ 
 title = "ubuntu技巧" 
 date = "Sat, 12 Mar 2016 03:34:00 GMT" 
-categories = ["ubuntu"] 
+tags = ["ubuntu"] 
+categories = ["OS"]
 description = "初入Ubuntu" 
 +++ 
 

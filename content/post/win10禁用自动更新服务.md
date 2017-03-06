@@ -1,7 +1,8 @@
 +++ 
 title = "win10禁用自动更新服务" 
 date = "Mon, 13 Feb 2017 00:48:00 GMT" 
-categories = ["配置"] 
+tags = ["配置"] 
+categories = ["OS"]
 description = "win10 关闭自动更新" 
 +++ 
 

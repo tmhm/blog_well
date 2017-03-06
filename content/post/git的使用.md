@@ -1,7 +1,8 @@
 +++ 
 title = "git的使用" 
 date = "Mon, 08 Aug 2016 09:13:00 GMT" 
-categories = ["git"] 
+tags = ["git"] 
+categories = ["Tools"]
 description = " git 入门" 
 +++ 
 
