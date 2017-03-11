@@ -38,3 +38,60 @@ win10 升级后，主机在锁屏状态下，Teamviewer无法远程登录账户�
 
 ### 待解决
 
+ ubuntu 14.04下的Teamviewer也登录不了，本来用着好的Teamviewer，现在却登录不了。苦于不在主机旁，只能用命令重新安装之，参考了[博文](http://blog.csdn.net/dreamhai/article/details/57080531)，先在虚拟机上实现，却发现问题。
+
+```
+wget https://downloadus1.teamviewer.com/download/version_12x/teamviewer_12.0.71510_i386.deb
+
+sudo dpkg -i teamviewer_12.0.71510_i386.deb
+```
+
+由于64bits系统和32bits程序的不兼容性，故需要添加32bits 架构
+```
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get -f install
+```
+在虚拟机ubuntu14.04上安装之。`sudo dpkg -i teamviewer_12.0.71510_i386.deb
+`
+总是显示安装错误！
+
+```
+(Reading database ... 324209 files and directories currently installed.)
+Preparing to unpack teamviewer_12.0.71510_i386.deb ...
+Unpacking teamviewer (12.0.71510) over (12.0.71510) ...
+dpkg: dependency problems prevent configuration of teamviewer:
+ teamviewer depends on libdbus-1-3.
+ teamviewer depends on libsm6.
+
+dpkg: error processing package teamviewer (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for mime-support (3.54ubuntu1.1) ...
+Processing triggers for gnome-menus (3.10.1-0ubuntu2) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu1) ...
+Processing triggers for bamfdaemon (0.5.1+14.04.20140409-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for hicolor-icon-theme (0.13-1) ...
+Errors were encountered while processing:
+ teamviewer
+```
+
+弹出没有启动daemon服务，启动之，
+`sudo teamviewer --daemon start`， no work.
+
+更加奇怪的是，服务器ubuntu 上的Teamviewer不登录任何账号的时候，可以直接远程访问了。
+
+### 一些有用的命令
+
+- 获取Teamviewer的ID`teamviewer --info`
+- 设置密码`sudo teamviewer --passwd [newpw]`
+
+**修改配置文件以接受licence**
+
+1. 停止服务`sudo teamviewer --daemon stop`
+2. 在`/opt/teamviewer/config/global.conf`文件最后添加两行
+```
+[int32] EulaAccepted = 1 
+[int32] EulaAcceptedRevision = 6 
+```
+3. 重启服务`sudo teamviewer --daemon start`
