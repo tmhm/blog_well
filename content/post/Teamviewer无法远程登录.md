@@ -95,3 +95,8 @@ Errors were encountered while processing:
 [int32] EulaAcceptedRevision = 6 
 ```
 3. 重启服务`sudo teamviewer --daemon start`
+
+### 粗暴解决
+
+在一台新的win10系统下，发现teamviewer，可以重启使用，突然想起，曾经用驱动精灵和金山毒霸进行过优化，于是，卸载之，并取消他们的优化，再安装teamviewer，发现可以正常使用了。
+**都是过度优化惹得祸！**
