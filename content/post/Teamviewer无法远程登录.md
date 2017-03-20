@@ -50,7 +50,7 @@ sudo dpkg -i teamviewer_12.0.71510_i386.deb
 ```
 sudo dpkg --add-architecture i386
 sudo apt-get update
-sudo apt-get -f install
+sudo apt-get install -f
 ```
 在虚拟机ubuntu14.04上安装之。`sudo dpkg -i teamviewer_12.0.71510_i386.deb
 `
@@ -76,6 +76,13 @@ Errors were encountered while processing:
  teamviewer
 ```
 
+前文稍微有点细节【补充】
+```
+sudo dpkg --add-architecture i386
+//先执行前面一句，一般会报错，报错之后再执行下面两句，安装依赖
+sudo apt-get update
+sudo apt-get install -f
+```
 弹出没有启动daemon服务，启动之，
 `sudo teamviewer --daemon start`， no work.
 
