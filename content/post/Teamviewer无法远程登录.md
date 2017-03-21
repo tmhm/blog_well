@@ -1,5 +1,5 @@
 +++
-tags = []
+tags = ["工具","shadowsocks","Teamviewer",]
 categories = ["Tools"]
 date = "2017-03-03T12:05:02+08:00"
 description = "win10 升级后，主机在锁屏状态下，Teamviewer无法远程登录账户，防火墙已关闭，无人值守访问不了,最后的发现问题的原因是驱动精灵，毒霸等优化软件弄得鬼，取消优化后，shadowsocks也能正常使用了。"
