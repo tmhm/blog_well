@@ -53,7 +53,7 @@ hugo new post/second.md
 ```
 ### 写blog操作步骤
 
-1. 用hugo new 生成新文件test.md；
+1. 用`hugo new post/test.md`命令在`content/post/`路径生成新文件test.md；
 2. 编辑my_blog/content/post/test.md，添加各种属性内容，用单引号‘’；
 3. 在本地服务器打开的状态下，是可以实时的看到网页的变化的，若满足要求，用hugo -t hyde-y --baseURL "https://****.github.io/" -D生成静态网页，然后在public目录下面再用git命令：add，commit，push 到 ****.github.io/仓库，现在既可以在玩个上看到新的内容了。
 4. cd 到上一目录my_blog/, 在此也可以将源文件放到一个仓库。

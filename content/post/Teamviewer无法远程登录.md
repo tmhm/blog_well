@@ -2,7 +2,7 @@
 tags = []
 categories = ["Tools"]
 date = "2017-03-03T12:05:02+08:00"
-description = "win10 升级后，主机在锁屏状态下，Teamviewer无法远程登录账户，防火墙已关闭，无人值守访问不了"
+description = "win10 升级后，主机在锁屏状态下，Teamviewer无法远程登录账户，防火墙已关闭，无人值守访问不了,最后的发现问题的原因是驱动精灵，毒霸等优化软件弄得鬼，取消优化后，shadowsocks也能正常使用了。"
 title = "Teamviewer无法远程登录主机用户"
 
 +++
@@ -107,3 +107,5 @@ sudo apt-get install -f
 
 在一台新的win10系统下，发现teamviewer，可以重启使用，突然想起，曾经用驱动精灵和金山毒霸进行过优化，于是，卸载之，并取消他们的优化，再安装teamviewer，发现可以正常使用了。
 **都是过度优化惹得祸！**
+
+还原优化后，同时**在win10上也可以正常使用shadowsocks了**。曾经可用，突然用不了，找各种原因都没解决。
