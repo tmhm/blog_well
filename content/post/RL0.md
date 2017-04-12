@@ -1,5 +1,5 @@
 +++ 
-title = "强化学习之路（0）" 
+title = "强化学习笔记（0）" 
 date = "Thu, 31 Mar 2016 08:18:00 GMT" 
 tags = ["RL"] 
 categories = ["Machine Learning"]
