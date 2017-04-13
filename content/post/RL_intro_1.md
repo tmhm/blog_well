@@ -41,7 +41,7 @@ title = "RL_intro_1"
 #### Rl系统中的四大主要元素（element）
 - 策略（policy）
 	
-	其定义是在某时刻下，智能体的行为方式。粗略地说，一个策略可以看做是接收到状态到智能体做出动作的一种映射关系，可以用函数或者表的形式来表现。通常来说，策略可能是随机的。
+	其定义是在某时刻下，智能体的行为方式。粗略地说，一个策略可以看做是接收到状态到智能体做出动作的一种映射关系，可以用函数或者表的形式来表现。通常来说，策略可以是确定的，也可能是随机的，即可以用条件概率来表示。
 	
 - 奖励/回报函数（reward function）
 	
@@ -49,12 +49,21 @@ title = "RL_intro_1"
 	
 - 值函数（value function）
 
-	奖励函数所表现出的是当前状态或者状态-动作对的立即评价，值函数表征的是对长远意义下的评判。粗略来说，值函数可以表示从当前状态开始到未来（long-term），Agent可以收获到奖励的一种累积和。即值函数是对Agent整个生命周期的一种评价。
+	奖励函数所表现出的是当前状态或者状态-动作对的立即评价，值函数表征的是对长远意义下的评判。粗略来说，值函数可以表示从当前状态开始到未来（long-term），Agent可以收获到奖励的一种累积和。即值函数是对Agent整个生命周期的一种评价。值函数是动作选择的一个标准。
 	
 - 环境的模型（model of the environment）
 	
 	即对该Agent生存环境的行为模仿（mimics the behavior of the environment）。举一个例子，给定一个状态和动作，环境模型可以预测相对应的下一状态和奖励。如果模型已知，强化学习问题可以演化为动态规划问题求解。
  
+#### RL中智能体学习方法的分类
+根据强化学习问题中所含元素的种类，其Agent的学习方法，可以分之为5大类。如下图2所示。
+<center>
+<!-- [](/images/RL1_agent_taxonomy.jpg "示图2") -->
+
+ <img src="/images/RL1_agent_taxonomy.jpg" width = "420" height = "280" alt="示图2" align=center />
+
+图2 强化学习中智能体学习方法的分类
+</center>
 
 #### 探索与利用的权衡
 *trade-off between exploration and exploitation*
@@ -73,3 +82,6 @@ Agent 需要根据已知的状态、动作和回报的相关信息，来不断�
 
 #### refernece
 [1] Sutton R S, Barto A G. Reinforcement learning: An introduction[M]. MIT press Cambridge, 1998.
+
+[2] David Silver. Lecture 1: Introduction to Reinforcement Learning
+Learning
