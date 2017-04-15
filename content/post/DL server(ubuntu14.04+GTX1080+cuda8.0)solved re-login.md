@@ -3,7 +3,7 @@ title = "DL服务器主机环境配置 ubuntu14.04 &&  GTX1080 && Cuda8.0 解决
 date = "Mon, 21 Nov 2016 12:15:00 GMT" 
 tags = ["DL"] 
 categories = ["Machine Learning"]
-description = "前面部分是自己的记录，后面方案部分是成功安装驱动+桌面重复的正解" 
+description = "前面部分是自己的记录，后面的方案部分是成功安装GPU驱动+解决桌面重复登录等" 
 +++ 
 
 
