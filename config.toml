@@ -26,8 +26,8 @@ paginatePath = "page"
 disqusShortname = "wells217-github-io"
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
-    code = "/:slug/"
+    post = "/:year/:month/:day/:filename/"
+  #  code = "/:slug/"
 
 [taxonomies]
     tag = "tags"

@@ -32,16 +32,16 @@ description = "初入Ubuntu"
 </ul>
 </li>
 <li>
-<h3>&nbsp;查看ssh服务状态</h3>
+<h3>查看ssh服务状态</h3>
 </li>
 <li>
 <div class="cnblogs_code">
 <pre>ps -e |grep ssh</pre>
 </div>
-<p>&nbsp;</p>
+
 </li>
 </ul>
-<p>&nbsp;</p>
+
 
 
 

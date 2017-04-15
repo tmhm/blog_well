@@ -3,7 +3,7 @@ categories = ["Machine Learning"]
 date = "2017-04-12T15:13:28+08:00"
 description = "强化学习笔记（1）——RL相关问题的简单介绍"
 tags = ["RL"]
-title = "RL_intro_1"
+title = "RL笔记(1)-introduction"
 
 +++
 

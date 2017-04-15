@@ -2,7 +2,7 @@
 description = "初识SQL语言"
 tags = ['SQL']
 categories = ['language']
-title = "taste SQL"
+title = "SQL初识"
 date = "2017-04-01T22:51:52+08:00"
 
 +++
