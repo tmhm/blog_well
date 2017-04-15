@@ -27,7 +27,7 @@ disqusShortname = "wells217-github-io"
 
 [permalinks]
     post = "/:year/:month/:day/:filename/"
-  #  code = "/:slug/"
+    code = "/:slug/"
 
 [taxonomies]
     tag = "tags"
