@@ -74,14 +74,14 @@ Agent 需要根据已知的状态、动作和回报的相关信息，来不断�
 
 - $ \epsilon $ -greedy action selection（以小概率不贪心的选择方式）
 - Softmax action selection（基于Gibbs分布或者称之为玻尔兹曼分布，以概率选择动作）
-	$$ \cfrac{e^{Q_t(a)/\tau}}{\sum_{b=1}^n e^{Q_t(b)/\tau}}$$
+	<div>$$ \cfrac{e^{Q_t(a)/\tau}}{\sum_{b=1}^n e^{Q_t(b)/\tau}}$$</div>
 
 	$\tau > 0 $表示温度（temperature）, 高的温度，选择动作近乎平等；温度趋近0的时候，此法接近于贪心选择。
 
 
 
 #### refernece
-[1] Sutton R S, Barto A G. Reinforcement learning: An introduction[M]. MIT press Cambridge, 1998.
+1. Sutton R S, Barto A G. Reinforcement learning: An introduction[M]. MIT press Cambridge, 1998.
 
-[2] David Silver. Lecture 1: Introduction to Reinforcement Learning
+2. David Silver. Lecture 1: Introduction to Reinforcement Learning
 Learning
