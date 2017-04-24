@@ -1,5 +1,5 @@
 +++ 
-title = "DL服务器主机环境配置 ubuntu14.04 &&  GTX1080 && Cuda8.0 解决桌面重复登录" 
+title = "DL服务器主机环境配置 ubuntu14.04 &  GTX1080 & Cuda8.0 解决桌面重复登录" 
 date = "Mon, 21 Nov 2016 12:15:00 GMT" 
 tags = ["DL"] 
 categories = ["Machine Learning"]
