@@ -3,7 +3,7 @@ tags = ['tools', 'Ubuntu']
 categories = ["Tools"]
 date = "2017-02-27T13:55:22+08:00"
 description = "记录在Ubuntu14.04系统下面配置Hugo的过程，包括安装Hugo，markdown工具remarkanle 以及配置搜狗输入法，github等。"
-title = "Hugo在Ubuntu14.04系统下的配置 "
+title = "Hugo及相应软件包在Ubuntu14.04系统下的配置 "
 
 +++
 
@@ -28,6 +28,12 @@ sudo dpkg -i hugo_0.15_amd64.deb
 - 双击直接跳出更新管理器安装之；
 - 安装后，需要在语言支持里面，keyboard input method system改为fcitx，此**步骤重要**；
 - 重启，输入法生效。
+
+有时会出现输入框不显示汉字的情况，可能原因是某些软件导致配置文件被修改，可以将起配置文件全部删除，待重新生成既可以解决。
+```
+cd ~/.config
+sudo rm -rf sogou* Sogou*
+```
 
 ### 配置github
 由于hugo文件在另一台电脑已经配置好config.toml文件，所以只需要将整个文件夹copy过来，配置好Ubuntu本地的github即可
