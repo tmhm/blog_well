@@ -66,6 +66,7 @@ description = "精神食粮"
 <ol>
 <li>Google 未来之镜</li>
 <li>写给大家看的设计书（第四版）</li>
+<li>设计心理学（-ing）</li>
 <li>创新者的窘境 （-ing）</li>
 <li>围城（-ing）</li>
 <li>重新定义团队：谷歌如何工作（-ing）</li>
