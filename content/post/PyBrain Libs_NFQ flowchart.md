@@ -94,11 +94,24 @@ print "you put :",str
 ```
 
 experiment.doEpisodes(1)
-![](http://i.imgur.com/Un1ow9B.png)
 
+<!-- ![](http://i.imgur.com/Un1ow9B.png)
+-->
+
+<center>
+
+ <img src="/images/doEpisode control flow of NFQ in PyBrain.png" width = "800" height = "1680" alt="示图1" align=center />
+
+</center>
 
 agent.learn(2)
-![](http://i.imgur.com/TQ2YO9y.png)
+<!-- ![](http://i.imgur.com/TQ2YO9y.png)
+-->
+<center>
+
+ <img src="/images/agent.learn() control flow of NFQ in PyBrain.png" width = "800" height = "780" alt="示图2" align=center />
+
+</center>
 
 图2的注释2部分，可以参考该博文[深度强化学习初探](http://lamda.nju.edu.cn/yangjw/project/drlintro.html) ,但是他文中的公式应该有点问题。应该把Qm+1改为Qm，进一步参考维基百科[Q-learning](https://en.wikipedia.org/wiki/Q-learning) ,如下所示。
 
