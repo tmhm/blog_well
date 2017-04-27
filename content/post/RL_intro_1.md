@@ -83,5 +83,4 @@ Agent 需要根据已知的状态、动作和回报的相关信息，来不断�
 #### refernece
 1. Sutton R S, Barto A G. Reinforcement learning: An introduction[M]. MIT press Cambridge, 1998.
 
-2. David Silver. Lecture 1: Introduction to Reinforcement Learning
-Learning
+2. Slides, David Silver. Lecture 1: Introduction to Reinforcement Learning.
