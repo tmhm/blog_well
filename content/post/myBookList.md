@@ -57,20 +57,27 @@ description = "精神食粮"
 <li>机器学习实践（-ing）</li>
 <li>机器学习.周志华（-ing）</li>
 <li>算法（第四版）. Robert Sedgewick（-ing，看进去以后，相见恨晚）</li>
-<li>Reinforcement learning: An&nbsp;induction.&nbsp;Richard S. Sutton（-ing）</li>
+<li>Reinforcement learning: An&nbsp;introduction.&nbsp;Richard S. Sutton（-ing）</li>
 <li>无人驾驶车辆模型预测控制.北京理工大学出版社（-ing）（发现战线好长，得收敛到某个方向）</li>
 </ol>
 <p>16年的专业书籍还有很多在继续。。</p>
 
 <p><strong>&nbsp;2017年书单：</strong></p>
+
+<p></p>
 <ol>
 <li>Google 未来之镜</li>
 <li>写给大家看的设计书（第四版）</li>
-<li>设计心理学（-ing）</li>
+<li>设计心理学（唐纳德·A·诺曼著，中信出版社，2010年版）</li>
 <li>创新者的窘境 （-ing）</li>
 <li>围城（-ing）</li>
 <li>重新定义团队：谷歌如何工作（-ing）</li>
+
+
 </ol>
+
+17年，目前专业方面的专著读得少一些了，断断续续在读Reinforcement Learning：An introduction； 另外，主要会关注一些DRL方向的paper
+
 
 
 
