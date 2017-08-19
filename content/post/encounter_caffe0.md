@@ -3,7 +3,7 @@ tags = ['caffe', 'machine learning']
 categories = [machine-learning]
 title = "Caffe初识笔记"
 date = "2017-08-12T10:49:29+08:00"
-description = "接触caffe源代码有一段时光了，周末，趁记忆仍新，将其部分内容做适量记录，仅当总结。"
+description = "接触caffe源代码有一段时光了，周末，趁记忆尚新，将其部分内容做适量记录，仅当总结。"
 
 +++
 
@@ -13,7 +13,7 @@ description = "接触caffe源代码有一段时光了，周末，趁记忆仍新
 - 底层模块采用c++编码，执行效率较高，故在工业界的部署使用比较常见；
 - 其源代码的模块化程度较高，对于初学者可以较好的理解深度学习的一些概念；
 - 目前由[BVLC](http://bair.berkeley.edu/)维护，社区支持尽管没有TensorFlow的多，资料较为完善，初学者的一般问题都能在Internet找到解答；
-- [github 源码](https://github.com/BVLC/caffe)README是一个很好的入门材料；源码中的docs目录下有一些较详细的指导文档。
+- [GitHub 源码](https://github.com/BVLC/caffe)README是一个很好的入门材料；源码中的docs目录下有一些较详细的指导文档。
 - [Caffe Tutorial](http://caffe.berkeleyvision.org/tutorial/)多读易善。
 
 
@@ -34,7 +34,7 @@ Caffe 的安装,官方有很详细的[教程](http://caffe.berkeleyvision.org/in
 
 ### 编译
 
-一般来说按照官方的安装说明，安装好各种依赖，git clone [github Caffe源码](https://github.com/BVLC/caffe)。然后在 `Makefile.config` 配置好自己的相关设置，就可以执行编译。
+一般来说按照官方的安装说明，安装好各种依赖，git clone [GitHub Caffe源码](https://github.com/BVLC/caffe)。然后在 `Makefile.config` 配置好自己的相关设置，就可以执行编译。
 
 ```
 make all -j99   
@@ -42,7 +42,7 @@ make pycaffe -j99
 ```
 **注意make 是否采用sudo是有区别的，sudo 会调用管理员的各种设置，可能会出现找不到一些依赖包。**
 
-config文件尽管写的非常清楚，初学者得非常注意，不然可能会出现明明安装了该包，确找不到相关的文件。本人就踩此坑多次。注意include头文件和lib的包含位置，`/usr/lib64`等。手动加上自己自定义安装的位置，BTW，CentOS安装locate，需要`sudo yum install mlocate && updatedb`.CebtOS下locate 改名为mlocate。
+config文件尽管写的非常清楚，初学者得非常注意，不然可能会出现明明安装了该包，确找不到相关的文件。本人就踩此坑多次。注意include头文件和lib的包含位置，`/usr/lib64`等。手动加上自己自定义安装的位置，BTW，CentOS安装locate，需要`sudo yum install mlocate && updatedb`. CentOS下locate 改名为 mlocate。
 
 ### 初次运行代码
 
@@ -51,6 +51,7 @@ config文件尽管写的非常清楚，初学者得非常注意，不然可能�
 ```
 cd $CAFFE_ROOT
 
+// 获取数据
 ./data/mnist/get_mnist.sh
 ./examples/mnist/create_mnist.sh
 
@@ -58,7 +59,7 @@ cd $CAFFE_ROOT
 ./examples/mnist/train_lenet.sh
 ```
 
-如果你下载了[caffe-ssd的源码](https://github.com/weiliu89/caffe/tree/ssd)。先按照README文件，create list && data，然后可以通过运行`python examples/ssd/ssd_pascal.py`来生成`train/test/deploy/solver.prototxt`文件进行模型的训练。以上四个文件是在利用Caffe平台已有的网络层做深度模型需要编辑的主要文件。
+如果你下载了[caffe-ssd的源码](https://github.com/weiliu89/caffe/tree/ssd)。先按照README文件，运行 create list && data.sh，然后可以通过运行`python examples/ssd/ssd_pascal.py`来生成`train/test/deploy/solver.prototxt`文件进行模型的训练。以上四个文件是在利用Caffe平台已有的网络层做深度模型需要编辑的主要文件。
 
 **Note：**假如此处的example运行失败，而前面的编译`make all && make pycaffe`均成功，很可能存在的一个问题是，动态链接库没配置好。
 可以通过下面指令check：
@@ -77,9 +78,9 @@ export LD_LIBRARY_PATH=/PATH/TO/YOUR/lib:$LD_LIBRARY_PATH
 ### 源码结构
 
 ```
-tree -L 2
-（caffe-ssd示例，删除了部分内容）
-├── Makefile.config // 配置文件，是否用cuDNN，设置include和lib的路径等
+$ tree -L 2
+//（caffe-ssd示例，删除了部分内容）
+├── Makefile.config // 配置文件，是否使用cuDNN，设置include和lib的路径等
 ├── build -> .build_release
 ├── data // 保存训练data 的目录
 │   ├── ILSVRC2016。。。
@@ -97,9 +98,9 @@ tree -L 2
 ├── include // 主要包括一些源码生成的.hpp文件
 │   └── caffe
 ├── matlab // matlab接口
-├── models // model，即 train/test/deploy/solver.prototxt 等配置文件
-│   ├── bvlc_alexnet
-│   └── finetune_flickr_style
+├── models // models 的一些配置，caffemodel及snapshot文件
+│   ├── bvlc_alexnet //分别保存train/test/deploy/solver.prototxt等配置
+│   └── finetune_flickr_style //和.caffemodel, .solverstate 网络模型。
 ├── python // python接口
 │   ├── caffe
 │   ├── classify.py
@@ -109,24 +110,50 @@ tree -L 2
 ├── scripts	// 一些有用的脚本
 │   ├── create_annoset.py // 生成IMDB数据格式的训练数据用到。
 │   └── upload_model_to_gist.sh
-├── src //源码的主要位置，src/caffe/proto/caffe.proto中定义caffe用到的各种参量。
+├── src //源码位置，src/caffe/proto/caffe.proto中定义caffe用到的各种参量。
 │   ├── caffe // 其layers目录下，有各种网络层的前后向计算，分cpu和gpu版。
 │   └── gtest
 └── tools
-    ├── caffe.cpp
+    ├── caffe.cpp // main函数的入口 ==> 
+    ├── extra/
+    │   └── plot_training_log.py.example //分析log，生成loss等图形，实用。
     ├── convert_annoset.cpp  // create data 用到
     ├── convert_imageset.cpp
     ├── create_label_map.cpp
-    ├── device_query.cpp   //查询GPU信息
+    ├── device_query.cpp     // 查询GPU信息
     ├── extract_features.cpp
     └── finetune_net.cpp
 ```
 
+关于caffe中四大基本结构：Blob，Layer，Net，Solver的介绍可以[参考博客](https://ymgd.github.io/codereader/2016/10/20/caffe_sourcecode_analysis/)
 
 
+### 代码流程
 
+如上面源码结构所示，（以train示例）
 
+1. 由 `./build/tools/caffe train` 命令开始，执行tools/caffe.cpp 的main函数；
+2. main函数中会通过 `return GetBrewFunction(caffe::string(argv[1]))()`, 根据argv[1]的设置，进而调用`caffe.cpp`中的 `train()`函数；
+3. `train（）`调用`solver->Solve();`
+	1. `Solve()`函数会调用`Step(param_.max_iter() - iter_);`其中， 		
+	2. 在step函数里面对各层分别进行前后向计算和梯度更新；
+	
+			while (iter_ < stop_iter) {
+			
+				for (int i = 0; i < param_.iter_size(); ++i) {
+	  				// 前后向计算
+	  				loss += net_->ForwardBackward();
+				} 
+				// 根据solver.protxt文件配置的`solver_param.type`，
+				// 调用`src/caffe/solvers`目录下对应的派生类solver中的
+				// ApplyUpdate();函数，对梯度进行更新；
+				ApplyUpdate();
+			}
 
+4. 关于solver类的解释，[该博文](http://blog.csdn.net/lanxuecc/article/details/53186613)的流程介绍比较详细。
+	1. 关于solver的构建，默认sgd_solver, 在构造的时候，会调用父类`solver.cpp`，手动执行`Init(param);`函数，
+	2. 进而，依次构建`InitTrainNet();` 和 `InitTestNets();` 网络；
+	
 
 
 
